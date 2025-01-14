@@ -1,11 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=git, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shop</title>
+
+  <!-- Link para o CSS gerado do Sass -->
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Pet shop </a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="produtos.html" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sobre Nos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <section
+    class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+  >
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Pet <span class="text-warning">Shop </span></h1>
+          <p class="lead my-4">
+            We focus on delivering the best products for your pets
+          </p>
+          <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#enroll"
+          >
+            Buy Now
+          </button>
+        </div>
+        <img
+          class="img-fluid w-50 d-none d-sm-block"
+          src="/img/cat and dogs.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </section>
+  
+  <section class="container my-5">
+    <!-- Título global para a seção -->
+    <h2 class="text-start mb-4">Produtos</h2>
     
+    <!-- Grid de Cães -->
+    <h3 class="text-start mb-4">Cães</h3>
+    <div class="row">
+      <!-- Produto 1 - Cães -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white" class="card-img-top img-fluid" alt="Produto Cães 1">
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium para Cães</h5>
+            <p class="card-text">Uma ração premium para cães, rica em nutrientes e ingredientes naturais que promovem a saúde e vitalidade do seu pet.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Produto 2 - Cães -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white" class="card-img-top img-fluid" alt="Produto Cães 2">
+          <div class="card-body">
+            <h5 class="card-title">Brinquedo Interativo para Cães</h5>
+            <p class="card-text">Brinquedo interativo para estimular o raciocínio do seu cão, com materiais duráveis e seguros para todos os tamanhos.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Produto 3 - Cães -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white" class="card-img-top img-fluid" alt="Produto Cães 3">
+          <div class="card-body">
+            <h5 class="card-title">Coleira Ajustável para Cães</h5>
+            <p class="card-text">Coleira ajustável com design moderno e confortável, feita de material resistente para garantir a segurança do seu cão.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Grid de Gatos -->
+    <h3 class="text-start mb-4">Gatos</h3>
+    <div class="row">
+      <!-- Produto 1 - Gatos -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white" class="card-img-top img-fluid" alt="Produto Gatos 1">
+          <div class="card-body">
+            <h5 class="card-title">Arranhador para Gatos</h5>
+            <p class="card-text">Arranhador para gatos com diferentes texturas, ideal para manter as garras dos gatos em boa forma e evitar danos móveis.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Produto 2 - Gatos -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white" class="card-img-top img-fluid" alt="Produto Gatos 2">
+          <div class="card-body">
+            <h5 class="card-title">Cama Macia para Gatos</h5>
+            <p class="card-text">Cama macia e confortável para gatos, feita com material de alta qualidade para garantir o descanso perfeito do seu felino.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Produto 3 - Gatos -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://placehold.co/600x400/orange/white class="card-img-top img-fluid" alt="Produto Gatos 3">
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium para Gatos</h5>
+            <p class="card-text">Ração premium formulada especialmente para gatos, com proteínas de alta qualidade para manter a saúde e a pelagem do seu pet.</p>
+            <p class="card-price"><strong>Preço: 1000$00 CVE</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+   <!-- Footer -->
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="justify-content-between row">
+        <!-- Coluna 1: Sobre a empresa -->
+        <div class="col-md-4 mb-4">
+          <h5>Sobre Nós</h5>
+          <p>Somos uma loja online dedicada a fornecer os melhores produtos para seus pets, com qualidade e segurança.</p>
+        </div>
+  
+        <!-- Coluna 2: Links úteis -->
+        <div class="col-md-4 mb-4">
+          <h5>Links Úteis</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white">Sobre</a></li>
+            <li><a href="#" class="text-white">Produtos</a></li>
+            <li><a href="#" class="text-white">Contato</a></li>
+          </ul>
+        </div>
+  
+        <!-- Coluna 3: Redes sociais -->
+        <div class="col-md-4 mb-4">
+          <h5>Redes Sociais</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-facebook"></i> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-twitter"></i> Twitter
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-instagram"></i> Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Direitos autorais -->
+      <div class="text-center mt-4">
+        <p>&copy; 2025 Pet Shop. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+    <script type="module" src="main.js "></script>
 </body>
 </html>
