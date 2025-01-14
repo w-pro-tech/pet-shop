@@ -11965,3 +11965,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }/*# sourceMappingURL=main.css.map */
+
+.no-link-style{
+  text-decoration: none;
+  color: inherit;
+}
