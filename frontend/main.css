@@ -11970,3 +11970,14 @@ textarea.form-control-lg {
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 760px) {
+  .card{
+    height: auto;
+    grid-template-rows: auto auto;
+  }
+
+  .card-img-container{
+    height: 200px;
+  }
+}
